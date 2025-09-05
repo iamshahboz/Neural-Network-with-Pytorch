@@ -12,3 +12,8 @@ Each connection is a weight.
 Input value will get multiplied by a weight.(optional bias can be added), all summed and passed through an
 activation function.
 
+We will work with MNIST dataset. It is a hand drawn numbers dataset
+
+expected result for part2
+
+![alt text]({62950656-82F1-4595-AA5B-981B35A93A7F}.png)
