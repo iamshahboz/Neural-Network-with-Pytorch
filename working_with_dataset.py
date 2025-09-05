@@ -47,4 +47,14 @@ for data in trainset:
     print(plt.show())
     break 
 
+total = 0
+counter_dict = {1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0}
+for data in trainset:
+    xs, ys = data
+    for y in ys:
+        counter_dict[int(y)] += 1
+        
+print(counter_dict)
+
+
 
